@@ -4,7 +4,8 @@
   "description": "this is a node test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "webpack"
   },
   "keywords": [
     "npm",
@@ -14,7 +15,12 @@
   "author": "Kai",
   "license": "ISC",
   "dependencies": {
-    "jquery":"3.3.1",
-    "vue":"2.5.1"
+    "jquery": "3.3.1",
+    "vue": "2.5.1",
+    "yarn": "^1.13.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
   }
 }
