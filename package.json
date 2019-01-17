@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"build": "webpack"
+    "build": "webpack"
   },
   "keywords": [
     "npm",
@@ -20,6 +20,7 @@
     "yarn": "^1.13.0"
   },
   "devDependencies": {
+    "expose-loader": "^0.7.5",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1"
   }
