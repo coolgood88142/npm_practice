@@ -19,7 +19,14 @@
 	</body>
 <script type="text/javascript">
 	$(document).ready(function() {
-		$("#hello2").hide();
+		jQuery("#hello2").hide();
 	});
+	new Vue({
+        el: '#app',
+        data: {
+            message: "Hello Vue"
+        }
+    })
+
 </script>
 </html>

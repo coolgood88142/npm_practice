@@ -1,4 +1,3 @@
 document.write('It works.')
-var $ = require('jquery');
-window.jQuery = $;
-window.$ = $;
+window.jQuery = window.$ = require('jquery');
+window.Vue = require('vue');
